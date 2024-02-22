@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<script src="./common-js-functions.js"></script>
+	<form action="" method="post" id="articleCreationForm">
+		<label for="articleName">Article name:</label>
+		<input type="text" id="articleName" name="articleName" maxlength="32" size="30" placeholder="Specify a non-empty name" required
+			onkeyup="disableButtonIfEmptyName()"><br>
+		<input type="submit" id="saveButton" value="Create" class="saveButton" onclick="validateArticleName()">
+		<input type="button" id="cancelButton" value="Cancel" onclick="onClick_goBackToArticles()">
+	</form>
+</body>
+</html>

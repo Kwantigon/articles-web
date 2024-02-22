@@ -1,0 +1,38 @@
+#article {
+	border: solid;
+	position: relative;
+	width: 69vw;
+	margin: auto;
+	top: 1vh;
+}
+
+#article-name {
+	text-align: center;
+}
+
+#article-content {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	word-wrap: break-word;
+}
+
+#navigation {
+	display: flex;
+	justify-content: space-around;
+}
+#navigation > a {
+	border: solid;
+	border-color: black;
+	margin-bottom: 10px;
+	padding: 1em 1em;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: large;
+}
+#edit-article-href {
+	background-color: skyblue;
+	color: black;
+}
+#back-to-articles-href {
+	background-color: beige;
+}

@@ -1,0 +1,84 @@
+h1 {
+	position: relative;
+	left: 20vw;
+}
+
+#articles-list {
+	list-style-type: none; /* Removes bullets from the list */
+}
+
+.article-list-item {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.article-list-item > .li-controls {
+	display: flex;
+	gap: 1em;
+}
+
+.article-list-item > .li-article-name {
+	width: 35vw;
+}
+
+.show-article-href, .edit-article-href {
+	color: deepskyblue;
+}
+
+.delete-article-button {
+	border: none;
+	background: none;
+	color: red;
+	cursor: pointer;
+	text-decoration: underline;
+	position: relative;
+}
+
+#page-navigation {
+	display: flex;
+	position: relative;
+	left: 12vw;
+}
+
+.nav-button {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	background: none;
+	cursor: pointer;
+}
+
+.nav-button:first-of-type {
+	margin-left: 0;
+}
+.nav-button:last-of-type {
+	margin-right: 0;
+}
+#create-article-btn {
+	margin-left: 8em;
+}
+
+.display-none {
+	display: none;
+}
+.visibility-hidden {
+	visibility: hidden;
+}
+
+/* The form for article creation */
+#articleCreationForm {
+	display: grid;
+}
+
+#article-name-label {
+	font-weight: bold;
+	font-size: x-large;
+	margin-bottom: 2px;
+}
+
+#form-buttons {
+	display: flex;
+	justify-content: space-around;
+}
+.form-button {
+	cursor: pointer;
+}
