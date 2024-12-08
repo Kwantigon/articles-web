@@ -1,0 +1,32 @@
+#article-edit-form {
+	display: grid;
+	width: 50vw;
+	margin: auto;
+	border: solid;
+	padding: 1em 1em;
+}
+
+.edit-form-label {
+	font-size: larger;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+#edit-form-buttons {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form-button {
+	width: 35%;
+}
+#saveButton {
+	background-color: lightgreen;
+	cursor: pointer;
+	margin-left: 3em;
+}
+#backButton {
+	background-color: red;
+	cursor: pointer;
+	margin-right: 3em;
+}
